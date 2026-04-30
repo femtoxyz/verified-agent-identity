@@ -4,13 +4,13 @@ on:
   workflow_dispatch:
     inputs:
       agent_name:
-        description: 'Agent Name'
+        description: 'Femto'
         required: true
-        default: 'gm_lokie'
+        default: 'femtoxyz'
       agent_description:
-        description: 'Agent Description'
+        description: 'femtoagent'
         required: true
-        default: 'gm_lokie AI Agent'
+        default: 'femto AI Agent'
 
 jobs:
   verify:
